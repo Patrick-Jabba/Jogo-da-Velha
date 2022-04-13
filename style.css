@@ -1,11 +1,40 @@
 body{
-    text-align: center;
+    font-family: "Roboto Mono", monospace;
+  min-height: 900px;
+  background-image: url("https://uploads.spiritfanfiction.com/historias/capas/201806/seiya-e-shiryu--entre-cavaleiros-13356826-180620181654.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding-bottom: 20vh;
+  text-align: center;
+  color: #02103D;
+  margin: auto;
+  font-size: 30px;
+  background-color: #FFF212;
+  
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h1, h2{
+   
+    color: #02103D;
+    margin: auto;
+    font-size: 30px;
+    background-color: #FFF212;
+    
+}
+
 
 .quadrado{
     text-align: center;
     width: 50px;
-    background-color: #eee;
+    background-color: #FFF212;
     display: inline-block;
     padding: 40px;
     font-size: 60px;
@@ -14,15 +43,22 @@ body{
 }
 
 .jogador, .vencedor{
-    font-size: 30px;
-    margin-top: 12px;
+    color: #02103D;
+    margin-top: 10px;
+    font-size:40px;
+    
+    
+
 }
 
 button {
+    color: #02103D;
+    border-radius: 40px;
+    font-size: 25px;
     margin-top: 12px;
-    width: 100px;
+    width: 200px;
     height: 30px;
-    background: #eee;
+    background: #FFF212;
     cursor: pointer;
 }
 

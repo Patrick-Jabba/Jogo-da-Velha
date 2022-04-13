@@ -90,11 +90,11 @@ function mudarVencedor(quadrado){
     vencedorSelecionado.innerHTML = vencedor;
 
 }
-
+// #2B98DF
 function mudaCorQuadrado(quadrado1, quadrado2, quadrado3){
-    quadrado1.style.background = '#0f0';
-    quadrado2.style.background = '#0f0';
-    quadrado3.style.background = '#0f0';
+    quadrado1.style.background = '#F48B9A';
+    quadrado2.style.background = '#F48B9A';
+    quadrado3.style.background = '#F48B9A';
 
 }
 
@@ -116,8 +116,8 @@ function restart(){
 
     for(var i = 1; i <= 9; i++){
         var quadrado = document.getElementById(i);
-        quadrado.style.background = '#eee';
-        quadrado.style.color = '#eee';
+        quadrado.style.background = '#FFF212';
+        quadrado.style.color = 'black';
         quadrado.innerHTML = '-';
     }
 

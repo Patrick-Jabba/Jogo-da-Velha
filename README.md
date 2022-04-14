@@ -1,2 +1,2 @@
-# Jogo-da-Velha # 🤓
-Criando seu próprio jogo da velha com HTML e Javascript
+# Tic-Tac-Toe # 🤓
+Making my own Tic-Tac-Toe game with HTML and Javascript

@@ -98,8 +98,6 @@ function mudaCorQuadrado(quadrado1, quadrado2, quadrado3){
 
 }
 
-
-
 function checaSequencia(quadrado1, quadrado2, quadrado3){
     var ehIgual = false;
 

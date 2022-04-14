@@ -9,12 +9,20 @@
  </head>
     
 <body>
+    
     <img class="imagem-principal" src="https://seeklogo.com/images/C/cavaleiros-do-zodiaco-logo-7BEBD54081-seeklogo.com.png">
     <div class="container">
         <h1>Jogo da Velha</h1>
         <h2>"Um cavaleiro nunca cai no mesmo golpe duas vezes"</h2>
     </div>
-   
+<!--MP3 WAV OGG-->
+    <p></p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/song1.mp3" type="audio/mp3">
+        <source src="midia/song2.mp3" type="audio/mp3">
+        <source src="midia/song3.mp3" type="audio.mp3">
+        
+    </audio>
 
     <div>
         <div id="1" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
@@ -47,6 +55,7 @@
         <button onclick="restart()">
             RESTART
         </button>
+    
     </div>
 </body>
 <script src="velha.js"></script>
